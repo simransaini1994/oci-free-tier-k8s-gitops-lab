@@ -72,6 +72,6 @@ This project is open-source and intended for educational and demonstration purpo
 
 ## 🙋‍♂️ Contributions & Feedback
 
-Open to feedback, suggestions, and improvements! Please open an issue 
+Open to feedback, suggestions, and improvements! Please open an issue in repo 
 ---
 
