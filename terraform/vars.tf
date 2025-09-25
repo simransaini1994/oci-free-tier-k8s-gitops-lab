@@ -29,16 +29,6 @@ variable "compartment_id" {
   type        = string
 }
 
-variable "vcn_id" {
-  description = "OCID of the Virtual Cloud Network (VCN)"
-  type        = string
-}
-
-variable "subnet_id" {
-  description = "OCID of the subnet within the VCN"
-  type        = string
-}
-
 variable "ssh_public_key" {
   description = "SSH public key for accessing the instance"
   type        = string
@@ -59,4 +49,12 @@ variable "instance_ocpus" {
 
 variable "instance_shape_config_memory_in_gbs" {
   default = 12
+}
+
+variable "vcn_cidr_block" {
+  default = "192.168.0.0/16"
+}
+
+variable "subnet_cidr_block" {
+  default = "192.168.1.0/24"
 }
